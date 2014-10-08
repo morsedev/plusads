@@ -1,0 +1,42 @@
+".container": {
+	backgroundColor:'white',
+	layout: 'vertical'
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: '#000'
+}
+
+"TextField": {
+	borderWidth: '2dp',
+	borderColor: 'gray',
+	borderRadius: '5dp',
+	width: '80%',
+	height: '10%'
+}
+
+"TextArea": {
+	borderWidth: '2dp',
+	borderColor: 'gray',
+	borderRadius: '5dp',
+	width: '80%'
+}
+
+".header": {
+	height: '10%',
+	backgroundColor: 'red'
+}
+
+".separator": {
+	height: '3%'
+}
+
+".adtitle":{
+	hintText: 'Título'
+}
+
+".textcontainer":{
+	layout: 'vertical'
+}

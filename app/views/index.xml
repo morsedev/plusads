@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container">
+		<View class="header">
+			<Label>Publica tu anuncio</Label>			
+		</View>
+		<View class="separator"></View>
+		<View class="textcontainer">
+			<TextField class="adtitle"></TextField>
+			<View class="separator"></View>
+			<TextArea></TextArea>
+			<View class="separator"></View>
+			<TextField></TextField>
+			<View class="separator"></View>
+		</View>
+
+	</Window>
+</Alloy>
