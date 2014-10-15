@@ -1,17 +1,36 @@
 <Alloy>
-	<Window class="container">
-		<View class="header">
-			<Label>Publica tu anuncio</Label>			
+	<Window >
+		<View class="container" id="main" onSwipe="swipeMenu">
+			<View class="header">
+				<Label>Publica tu anuncio</Label>
+			</View>
+			<View>
+				<View class="textcontainer">
+					<View class="separator"></View>
+					<View class="separator"></View>
+					<TextField class="adtitle"></TextField>
+					<View class="separator"></View>
+					<TextField class="ad"></TextField>
+					<View class="separator"></View>
+					<TextField class="price"></TextField>
+					<View class="separator"></View>
+					<View class="buttonview" layout="horizontal">
+						<Button>Publicar</Button>
+						<View class="hseparator"></View>
+						<Button>Cancelar</Button>
+					</View>
+				</View>
+				<View id="dark"></View>
+				<View id="menu">
+					<View class="menuitem">
+						<Label>Hola Mundo</Label>
+					</View>
+					<View class="menuitem">
+						<Label>Hola Mundo 2</Label>
+					</View>
+				</View>
+			</View>
 		</View>
-		<View class="separator"></View>
-		<View class="textcontainer">
-			<TextField class="adtitle"></TextField>
-			<View class="separator"></View>
-			<TextArea></TextArea>
-			<View class="separator"></View>
-			<TextField></TextField>
-			<View class="separator"></View>
-		</View>
-
+		<Button onClick="showMenu" id="menuButton">Menú</Button>
 	</Window>
 </Alloy>
