@@ -1,0 +1,14 @@
+
+".container" : {
+  
+}
+
+
+".header": {
+	height: '10%',
+	backgroundColor: '#d52349'
+}
+
+'Label': {
+	color: 'white'
+}

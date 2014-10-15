@@ -1,0 +1,19 @@
+
+".container" : {
+  
+}
+
+"#menu": {
+	layout: "vertical",
+	toggle: "false",
+	width: '70%',
+	backgroundColor: 'white',
+	right: '-70%'	
+}
+
+".menuitem": {
+	height: '8%',
+	layout: 'horizontal', 
+	padding: '15dp',
+	
+}

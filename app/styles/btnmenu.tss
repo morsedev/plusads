@@ -1,0 +1,14 @@
+
+".container" : {
+  
+}
+
+"#menuButton": {
+	borderRadius: '30dp',
+	backgroundColor: '#57C5A0',
+	right: -20,
+	top: '5%',
+	width: 60,
+	height: 60,
+	color: 'white'
+}

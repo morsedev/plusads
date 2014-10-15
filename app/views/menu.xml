@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="menu">
+		<View class="menuitem">
+			<Label>Publicar anuncio</Label>
+		</View>
+		<View class="menuitem">
+			<Label>Mis anuncios</Label>
+		</View>
+	</View>
+</Alloy>

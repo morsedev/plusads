@@ -35,11 +35,6 @@
 	
 }
 
-".header": {
-	height: '10%',
-	backgroundColor: '#d52349'
-}
-
 ".separator": {
 	height: '3%'
 }

@@ -2,7 +2,7 @@
 	<Window >
 		<View class="container" id="main" onSwipe="swipeMenu">
 			<Require type="view" src="header" id="header"></Require>
-			<View>
+			<View class="maincontainer">
 				<View class="textcontainer">
 					<View class="separator"></View>
 					<View class="separator"></View>
@@ -18,22 +18,17 @@
 						<Button>Cancelar</Button>
 					</View>
 				</View>
-				
-				<Require type="view" src="dark" id="dark"></Require>
-				<!-- <View id="dark"></View> -->
-				
-				<Require type="view" src="menu" id="menu"></Require>
-				<!-- <View id="menu">
+				<View id="dark"></View>
+				<View id="menu">
 					<View class="menuitem">
 						<Label>Publicar anuncio</Label>
 					</View>
 					<View class="menuitem">
 						<Label>Mis anuncios</Label>
 					</View>
-				</View> -->
+				</View>
 			</View>
 		</View>
-		<Require type="view" src="btnmenu" id="btnmenu"></Require>
-		<!-- <Button onClick="showMenu" id="menuButton">Menú</Button> -->
+		<Button onClick="showMenu" id="menuButton">Menú</Button>
 	</Window>
 </Alloy>
