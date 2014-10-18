@@ -4,7 +4,7 @@
 
 
 ".container": {
-	backgroundColor:'white',
+	backgroundColor: 'white',
 	layout: 'vertical'
 }
 
@@ -22,7 +22,6 @@
 	height: '10%',
 	paddingLeft: '5dp',
 	backgroundColor: 'white'
-	
 }
 
 "TextArea": {
@@ -31,8 +30,7 @@
 	borderRadius: '5dp',
 	height: '20%',
 	width: '90%',
-	paddingLeft: '5dp',
-	
+	paddingLeft: '5dp'
 }
 
 ".separator": {
@@ -48,7 +46,7 @@
 }
 
 ".ad": {
-	hintText: 'Aquí tu anuncio',
+	hintText: 'Aquí tu anuncio'
 }
 
 ".textcontainer":{
@@ -60,7 +58,7 @@
 	toggle: "false",
 	width: '70%',
 	backgroundColor: 'white',
-	right: '-70%'	
+	right: '-70%'
 }
 
 "Button": {
@@ -77,14 +75,13 @@
 }
 
 ".hseparator": {
-	width: '10%'
+	width: '10%',
 }
 
 ".menuitem": {
 	height: '8%',
-	layout: 'horizontal', 
-	padding: '15dp',
-	
+	layout: 'horizontal',
+	padding: '15dp'
 }
 
 "#dark": {

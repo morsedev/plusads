@@ -1,7 +1,5 @@
 
-".container" : {
-  
-}
+".container": {}
 
 "#menuButton": {
 	borderRadius: '30dp',

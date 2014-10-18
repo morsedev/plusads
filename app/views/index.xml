@@ -33,7 +33,7 @@
 				</View> -->
 			</View>
 		</View>
-		<Require type="view" src="btnmenu" id="btnmenu"></Require>
+		<Require type="view" src="btnmenu" id="btnmenu" onClick="showMenu"></Require>
 		<!-- <Button onClick="showMenu" id="menuButton">Menú</Button> -->
 	</Window>
 </Alloy>
